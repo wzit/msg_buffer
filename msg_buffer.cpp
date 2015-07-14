@@ -2,7 +2,7 @@
 
 Msg_buffer::Msg_buffer(int sock_fd, int queue_size, int n_byte_of_msg_len)
 {
-	_sock_fd 			= sock_fd;
+	_sock_fd 		= sock_fd;
 	_queue_size 		= queue_size;
 	_n_byte_of_msg_len 	= n_byte_of_msg_len;
 
