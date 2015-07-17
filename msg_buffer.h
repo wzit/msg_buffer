@@ -52,7 +52,7 @@ public:
 		a buffer to hold the message content
 	*@return
 		>= 0 if success, the value equals message content length
-		-1 if fail
+		-1 if there is no message
 	*/
 	int pop_a_msg(char* msg_buff);
 
@@ -65,7 +65,7 @@ public:
 		in the range of int, witch is (0, 2147483647]
 	*@return
 		0 if success
-		-1 if fail
+		-1 if msg_len less than 0
 	*/
 	int push_a_msg(char* msg_buff, int msg_len);
 
